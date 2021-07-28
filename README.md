@@ -2,7 +2,7 @@
 
 ## MicroStrategy 2021 Update 2 Feature
 
-### REQUIREMENTS: The html file in this github must be hosted on a webserver to use or test this feature. You can not test hosting the html file on your local machine
+### REQUIREMENTS: The html file in this github must be hosted on a webserver to use or test this feature. You cannot test hosting the html file on your local machine
 
 Created: (07/26/2021)
 Here are some easy steps to embed a single visualization from a page in your dossier.
@@ -24,7 +24,7 @@ Here are some easy steps to embed a single visualization from a page in your dos
 >server: MicroStrategy x-mstr-authtoken: ==vi2k3iviqbgi10o500ri5mei3l==
 
 
-3. For the next step you will need the authtoken, which is hightlighted above, the `projectID` and `dossierID` You can get the `projectID` and `dosserID` a few different ways. The easiest way is to open the dossier using MicroStrategy Library. Here is an example url of a dossier when opened using Library that contains the vizualization that we would like to embed 
+3. For the next step you will need the authtoken, which is highlighted above, the `projectID` and `dossierID` You can get the `projectID` and `dosserID` a few different ways. The easiest way is to open the dossier using MicroStrategy Library. Here is an example url of a dossier when opened using Library that contains the visualization that we would like to embed 
 
 	https://env-239777.customer.cloud.microstrategy.com/MicroStrategyLibrary/app/==B7CA92F04B9FAE8D941C3E9B7E0CD754==/==A5EB1A9611EB6D59A1140080EF358A89==
 
