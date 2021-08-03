@@ -27,10 +27,10 @@
 
     //BEGIN CONFIG PARAMETERS -----------------------------------------------------------------------
     baseRestURL = "https://env-XXXXXX.customer.cloud.microstrategy.com/MicroStrategyLibrary";
-    username = "<username>";
-    password = "<password>";
-    projectID = "<projectID>";
-    dossierID = "<dossierID>";
+    username =    "<username>";
+    password =    "<password>";
+    projectID =   "<projectID>";
+    dossierID =   "<dossierID>";
     //END CONFIG PARAMETERS -------------------------------------------------------------------------
     
     //Form PostData for login REST request
@@ -62,7 +62,6 @@
     }).then(function(dossier) {
         dossierContainer1 = dossier;
       });
-    {    
 
     microstrategy.dossier.create({
       placeholder: document.getElementById("dossierContainer"),
@@ -77,8 +76,7 @@
       }
     }).then(function(dossier) {
         dossierContainer = dossier;
-      });
-    }
+    });
     
     function getXHRRequestPromise(url, body, method, contentType, desiredHeader) {
       return new Promise(function(resolve, reject) {
@@ -96,7 +94,7 @@
               status: this.status,
               statusText: xhr.statusText
             });
-          }
+          };
         };
       });
     };
