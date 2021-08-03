@@ -83,7 +83,7 @@ Using this data we can now go to `/api/dossiers/{dossierID}/definition`, click `
 
 	create a index.html file and copy and paste the index.html file from this github.
 
-	Replace the credentials and anything between `<>` with the correct information. You can now test to make sure that the feature is working by going to any browers and entering the URL:
+	Replace the credentials and anything between `<>` with the correct information. You can now test to make sure that the feature is working by going to any browser and entering the URL:
 
 	https://env-239777.customer.cloud.microstrategy.com/kenny/
 
